@@ -1,6 +1,6 @@
 # accordion
 
-This template should help get you started developing with Vue 3 in Vite.
+This template should help get you started developing an interactive accordion with Vue 3.
 
 ## Recommended IDE Setup
 
