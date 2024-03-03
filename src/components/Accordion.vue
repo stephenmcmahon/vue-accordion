@@ -4,10 +4,12 @@
   const data = [
     { id: 1,
       title: 'Click to open and close',
-      description: 'Content Goes Here' },
+      description: 'Content Goes Here', 
+      isOpen: false },
     { id: 2,
       title: 'Click to open and close',
-      description: 'Content Goes Here' }
+      description: 'Content Goes Here',
+      isOpen: false }
   ]
   const accordionItems = ref(data) // data is above array for Accordion content
   const toggleDescription = id => {
