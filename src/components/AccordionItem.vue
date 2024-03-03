@@ -1,5 +1,4 @@
 <script setup>
-  import SvgIcon from './SvgIcon.vue'
   defineProps(['accordionItem'])
   const emit = defineEmits(['toggleDescription']) // defining events to emit
   const handleClick = id => emit('toggleDescription', id) // emitting toggleDescription event with id attribute.
