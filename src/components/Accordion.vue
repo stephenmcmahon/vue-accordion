@@ -9,6 +9,10 @@
     { id: 2,
       title: 'Click to open and close',
       description: 'Content Goes Here',
+      isOpen: false },
+    { id: 3,
+      title: 'Click to open and close',
+      description: 'Content Goes Here',
       isOpen: false }
   ]
   const accordionItems = ref(data) // data is above array for Accordion content
@@ -29,6 +33,12 @@
   </div>
 </template>
  
-<style scoped>
-
+<style scoped lang="less">
+  div {
+    width: 60%;
+    margin: auto;
+    @media screen and (max-width: 600px) {
+      width: 100%;
+    }
+  }
 </style>
